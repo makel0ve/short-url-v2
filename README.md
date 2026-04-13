@@ -1,5 +1,7 @@
 # FastAPI URL Shortener
 
+[Живое демо →](https://trimi.duckdns.org)
+
 Веб-сервис для сокращения длинных URL-адресов с расширенной функциональностью: история ссылок, QR-коды, срок действия, лимит переходов, статистика и защита от вредоносных URL.
 
 ## Функционал
@@ -24,6 +26,14 @@
 * **Backend:** Python, FastAPI, SQLAlchemy 2.0 (async), PostgreSQL, Alembic, APScheduler, slowapi
 * **Frontend:** React 19, Vite, Tailwind CSS 4, qrcode.react
 * **Инфраструктура:** Docker, Docker Compose, Nginx, Gunicorn + Uvicorn
+
+## Скриншоты
+
+### Главная страница
+![Главная](docs/home.png)
+
+### Созданная ссылка с QR-кодом и историей
+![Результат](docs/result.png)
 
 ## Запуск через Docker
 
